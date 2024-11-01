@@ -1,0 +1,91 @@
+/*
+    Document   : ui.css
+    Created on : March 31st, 2014
+    Author     : lcleveland
+    Description:
+        UI CSS for WPDevKit.
+*/
+.wpdk_info .wpdk_element {
+  display: block; }
+
+.wpdevkit_plugin_metadata {
+  margin-bottom: 3%; }
+
+.wpdevkit_metadata_label {
+  display: inline-block;
+  margin-right: 1%;
+  min-width: 20%;
+  text-align: right;
+  color: #888;
+  vertical-align: top; }
+
+.wpdevkit_metadata_value {
+  display: inline-block;
+  max-width: 79%; }
+
+A.wpdk-filelink {
+  color: #2B769E;
+  text-decoration: none;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #F4F4F4 50%, #EFEFEF 100%) repeat scroll 0 0 transparent;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  line-height: 1.2em;
+  margin: 10px 0;
+  padding: 10px 10px 10px 50px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 2px 0 #FFFFFF;
+  transition: all 0.8s ease-in 0s; }
+
+A.wpdk-filelink:visited {
+  color: #569662;
+  cursor: pointer;
+  line-height: 1.2em;
+  text-shadow: 0 2px 0 #FFFFFF; }
+
+A.wpdk-filelink:focus {
+  outline: medium none; }
+
+A.wpdk-filelink:hover {
+  opatcity: 1; }
+
+A.wpdk-filelink:before {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 5px 0 0 5px;
+  border-right: 1px solid #BBBBBB;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  margin-right: 2px;
+  position: absolute;
+  top: 0;
+  transition: all 0.8s ease-in 0s;
+  width: 38px; }
+
+.wpdk-fileicon {
+  background-image: url("./download_package.png");
+  display: inline-block;
+  height: 24px;
+  margin-left: -41px;
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 24px; }
+
+.wpdk-filesize {
+  color: #666666;
+  float: right;
+  margin-left: 20px; }
+
+.woocommerce-MyAccount-downloads .new_version {
+  display: block; }
+.woocommerce-MyAccount-downloads .last_updated {
+  display: block;
+  font-style: italic;
+  font-size: 0.7em; }
+
+/*# sourceMappingURL=ui.css.map */
